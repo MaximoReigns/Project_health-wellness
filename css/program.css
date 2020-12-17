@@ -1,0 +1,79 @@
+body{
+    background-color: #F1F1F1;
+}
+ .main-program{
+     background-image: url(../assets/bg-program-1.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 0px 0px;
+     height: 91vh;
+ }
+.cont__program-card{
+    background-color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 3px 6px;
+}
+.container-price{
+    background-color:#F1F1F1;
+    border: white 3px solid;
+    border-radius: 25px;
+    width: 35%;
+    box-shadow: 12px 24px 48px;
+}
+.price-1{
+    color:#ABABAB;
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.price-1 small{
+    font-size: 20px;
+}
+
+.price-real{
+    margin-top: -25px;
+    font-size: 60px;
+}
+.list{
+    background-image: url(../assets/comprobado.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    list-style: none;
+}
+.list p{
+    margin-left: 25px;
+    color: black;
+    margin-bottom: 15px;
+}
+.price-button{
+    text-align: center;
+    color: white;
+    background-color: #F53ADC;
+    border-radius: 22px;
+    height: 30px;
+    width: 150px;
+    font-weight: bold;
+}
+.price-button:hover{
+    background-color: #f066dd;
+}
+.price-button a{
+    text-decoration: none;
+    color: white;
+}
+.price-button a:hover{
+    color: rgb(226, 225, 225);
+}
+
+.container-2021{
+    background-image: url(../assets/bg-peso.jpg);
+    background-size: cover;
+    height: 65vh;
+}
+
+.container-2021 p{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: white;
+}
