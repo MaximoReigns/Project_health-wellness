@@ -1,0 +1,31 @@
+.main-success h1{
+    color: black;
+    font-weight: bolder;
+    border-bottom: green 1px solid;
+}
+
+.main-success h3{
+    font-weight: bold;
+}
+
+.main-success h4{
+    font-size: 26px;
+}
+
+span{
+    font-size: 18px;
+}
+.button-success{
+    background-color: rgb(72, 175, 72);
+    border-radius: 20px;
+    display: inline-flex;
+    width: 150px;
+    height: 40px;
+}
+
+.button-success a{
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 15px;
+}
