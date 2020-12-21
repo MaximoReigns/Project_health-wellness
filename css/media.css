@@ -10,6 +10,9 @@
     background-size: cover;
     height: 30vh;
 }
+.download h3{
+    margin-left: -100px;
+}
 .container-guia{
     margin-left: 0px;
 }
@@ -41,6 +44,9 @@
 .container-price{
     width: 65%;
 }
+.download h3{
+    margin-left: -100px;
+}
 .price-button {
     text-align: center;
 }
@@ -63,6 +69,13 @@
 }
 .container-program img{
     width: 261px;
+}
+.download h3{
+    font-size: 20px;
+}
+.download a{
+    font-size: 15px;
+    margin-top: -8px;
 }
 .card-expert{
     margin-left: 85px;
@@ -135,6 +148,13 @@
     width: 200px;
     margin-left: 190px;
 
+}
+.download h3{
+    font-size: 15px;
+}
+.download a{
+    font-size: 11px;
+    margin-top: -8px;
 }
 .main__cards{
     margin-left: 48px;
@@ -274,6 +294,13 @@ h1{
     width: 150px;
     margin-left: 140px;
 }
+.download h3{
+    font-size: 12px;
+}
+.download a{
+    font-size: 9px;
+    margin-top: -9px;
+}
 /*-- PROGRAM --*/
 .main-program{
     height: 24vh;
@@ -304,5 +331,12 @@ h1{
 @media (max-width: 280px){
 .cont__program-card img {
     width: 220px;
+}
+.download h3{
+    font-size: 10px;
+}
+.download a{
+    font-size: 10px;
+    margin-top: -11px;
 }
 }

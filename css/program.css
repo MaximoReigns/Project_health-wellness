@@ -8,6 +8,32 @@ body{
      background-position: 0px 0px;
      height: 91vh;
  }
+ .download{
+     background-color: #1473e6;
+ }
+ .download h3{
+     color: white;
+     margin-right: 5px;
+     margin-left: -100px;
+ }
+ .download a{
+    color:white;
+    background-color: #1473e6;
+    border: white 2px solid;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 6px;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 5px;
+ }
+
+.download a:hover{
+    background-color: white;
+    color: #1473e6;
+    text-decoration: none;
+}
+
 .cont__program-card{
     background-color: white;
     border-radius: 30px;
@@ -24,6 +50,13 @@ body{
     list-style: none;
     color: rgb(245, 81, 182);
 }
+.cont__program-list-2{
+    background-color: #ffffff;
+    border: rgb(253, 192, 230) 3px solid;
+    border-radius: 15px;
+    box-shadow: 1px 2px 8px;
+    color:rgb(245, 81, 182);
+}
 .container-price{
     background-color:#F1F1F1;
     border: white 3px solid;
@@ -31,6 +64,18 @@ body{
     width: 35%;
     box-shadow: 12px 24px 48px;
 }
+
+.recetario h4{
+    color:tomato
+}
+
+.recetario a{
+    color: rgb(223, 132, 223);
+    list-style: none;
+    font-size: 20px;
+
+}
+
 .price-1{
     color:#ABABAB;
     font-size: 30px;
